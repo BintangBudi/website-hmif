@@ -1,0 +1,14 @@
+Tanggal : 05 Mei 2025
+
+Sequence Diagram
+Foto diganti jadi album, 
+Req foto by ID album
+Lifeline (garis putus²) di bagian paling bawah "tampilkan preview foto pada foto kegiatan", tambahkan dari Web browser -> user
+
+Class Diagram
+ID Galeri : BigInt 
+Clean code : set parameter harus sesuai kebutuhan, karena banyak aplikasi yg jalan pada server, memori komputer sudah di set, jika kebutuhan tidak sebesar itu ganti e=ke Integer. 
+
+
+Mockup Halaman Galeri
+Kalau bisa disitu ada filternya juga, jadi album yang ditampilkan tidak semua tapi yang udah di kurasi untuk memudahkan pengguna dalam mencari album.
