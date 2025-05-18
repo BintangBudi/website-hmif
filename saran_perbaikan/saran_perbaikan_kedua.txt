@@ -1,0 +1,4 @@
+Tanggal : 14 Mei 2025
+
+Pengujian
+saran : membuat format pengujian dalam bentuk tabel, diisi dengan daftar skenario/test case, hasil yang diharapkan dan hasil yang sebenarnya.

@@ -35,7 +35,7 @@
 <div class="container mx-auto py-10 px-[16%]">
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
         @forelse($galeri as $album)
-            <div class="bg-white rounded-2xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-[1.02] p-[10%]">
+            <div class="album-item-test bg-white rounded-2xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-[1.02] p-[10%]">
                 <!-- Pembungkus gambar dengan rasio 1:1 -->
                 <div class="w-full aspect-square bg-white">
                     <img src="{{ Storage::url($album->thumbnail) }}" alt="{{ $album->nama_album }}" class="w-full h-full object-cover rounded-2xl"/>
