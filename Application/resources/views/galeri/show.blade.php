@@ -50,7 +50,7 @@
                         src="{{ $file['previewUrl'] }}" 
                         frameborder="0" 
                         allowfullscreen 
-                        class="w-full h-full">
+                        class="list-photo-test w-full h-full">
                     </iframe>
                 </div>
             @empty
