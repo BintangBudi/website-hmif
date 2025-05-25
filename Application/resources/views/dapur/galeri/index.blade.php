@@ -15,12 +15,12 @@
                 <h5 class="text-xl font-semibold">{{ $album->nama_album }}</h5>
                 <p class="text-sm text-gray-500"><small>ID Folder: {{ $album->google_drive_folder_id }}</small></p>
                 <div class="flex gap-2 mt-3">
-                    <a href="{{ route('galeri.edit', $album->id) }}" class="bg-gray-300 text-gray-700 px-3 py-1 rounded-md text-sm hover:bg-gray-400">Edit Album</a>
+                    <a href="{{ route('galeri.edit', $album->id) }}" class="bg-gray-300 text-gray-700 px-3 py-1 rounded-md text-sm hover:bg-gray-400" dusk="edit-album-{{ Str::slug($album->nama_album) }}">Edit Album</a>
                     
                     <form action="{{ route('galeri.destroy', $album->id) }}" method="POST" onsubmit="return confirm('Yakin ingin menghapus album ini?')">
                         @csrf
                         @method('DELETE')
-                        <button type="submit" class="bg-red-500 text-white px-3 py-1 rounded-md text-sm hover:bg-red-600">Hapus</button>
+                        <button type="submit" class="bg-red-500 text-white px-3 py-1 rounded-md text-sm hover:bg-red-600" dusk="delete-album-{{ Str::slug($album->nama_album) }}">Hapus</button>
                     </form>
                 </div>
             </div>
