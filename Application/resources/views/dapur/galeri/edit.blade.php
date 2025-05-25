@@ -68,7 +68,7 @@
     <div class="overflow-y-auto max-h-[350px] p-2 border rounded">
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             @forelse ($files as $file)
-                <div class="bg-white shadow-sm rounded-lg overflow-hidden">
+                <div class="photo-test bg-white shadow-sm rounded-lg overflow-hidden">
                     <div class="relative">
                         <iframe 
                             src="{{ $file['previewUrl'] }}" 

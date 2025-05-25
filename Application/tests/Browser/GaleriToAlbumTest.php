@@ -8,9 +8,6 @@ use Tests\DuskTestCase;
 
 class GaleriToAlbumTest extends DuskTestCase
 {
-    /**
-     * A Dusk test example.
-     */
     public function testExample(): void
     {
         $this->browse(function (Browser $browser) {
@@ -27,8 +24,6 @@ class GaleriToAlbumTest extends DuskTestCase
                 ->assertSee('Berikutnya')
                 ->clickLink('Berikutnya')
                 ->pause(1000);
-
-
 
                 $browser->script('window.scrollTo(0, document.body.scrollHeight/3);');
                 $browser->pause(1000);
@@ -48,8 +43,6 @@ class GaleriToAlbumTest extends DuskTestCase
 
                 $browser->assertDontSee('Tidak ada foto tersedia di album ini.')
                 ->assertVisible('.list-photo-test');
-                
-
         });
     }
 }

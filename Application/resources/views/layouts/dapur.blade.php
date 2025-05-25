@@ -15,7 +15,7 @@
         <a href="{{ route('viewdapur') }}" class="block px-4 py-2 rounded hover:bg-white/20">Dashboard</a>
         <a href="{{ route('dapurartikel') }}" class="block px-4 py-2 rounded hover:bg-white/20">Artikel</a>
         <a href="{{ route('dapurtentangkami') }}" class="block px-4 py-2 rounded hover:bg-white/20">Data Tentang Kami</a>
-        <a href="{{ route('dapurgaleri') }}" class="block px-4 py-2 rounded hover:bg-white/20">Galeri</a>
+        <a href="{{ route('dapurgaleri') }}" class="galeri-test block px-4 py-2 rounded hover:bg-white/20">Galeri</a>
         <a href="{{ route('dapurpengurus') }}" class="block px-4 py-2 rounded hover:bg-white/20">Kepengurusan</a>
         <a href="{{ route('dapurkontak') }}" class="block px-4 py-2 rounded hover:bg-white/20">Kontak Kami</a>
     </div>
