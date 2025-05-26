@@ -127,3 +127,12 @@ Setelah melakukan push:
 - **Pastikan cek ulang perubahan** sebelum melakukan commit.
 
 Happy coding! 🚀✨
+
+## Anggota Team
+| NIM       | Nama                        | Peran              | 
+|-----------|-----------------------------|--------------------| 
+|D1041221043| Raden Adang Edithya Astama  | Project Manager    | 
+|D1041221001| Pratiwi Yona Puspitaningrum | Frontend Developer | 
+|D1041221047| Rifkal Firdaus              | Backend Developer  | 
+|D1041221037| Tirta Kusuma Yudha          | Quality Assurance  | 
+|D1041221046| Bintang Budi Pangestu       | DevOps Engineer    | 
